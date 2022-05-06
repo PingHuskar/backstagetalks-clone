@@ -1,3 +1,25 @@
+tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+  }
+  
+  th,td {
+    background-color: rgba(150, 212, 212, 0.4);
+    border: solid 1px #000;
+  }
+  th,tr {
+    text-align: center !important;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #777;
+  }
+  tr > th {
+      font-size: 2em;
+  }
+  tr > td {
+    font-size: 1.2em;
+}
 /* 
     Document   : main
     Created on : 18.5.2016, 16:51:15
@@ -15,18 +37,7 @@ body{
     -o-transition: background-color 500ms ease-out 200ms;
     transition: background-color 500ms ease-out 200ms;
 }
-body.fp-viewing-issue4 {
-    background: #ff6519;
-}
-body.fp-viewing-issue3 {
-    background: #ffbe00;
-}
-body.fp-viewing-issue2 {
-    background: #1d3fbb;
-}
-body.fp-viewing-issue1 {
-    background: #E30512;
-}
+
 p{
     color: #251d20;
     font-size: 18px;
